@@ -17,7 +17,7 @@
 1. If you are using PyCharm - it may propose you to automatically create venv for your project 
     and install requirements in it, but if not:
     ```
-    python -m venv venv
+    python3 -m venv venv
     venv\Scripts\activate (on Windows)
     source venv/bin/activate (on macOS)
     pip install -r requirements.txt
